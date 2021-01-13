@@ -37,12 +37,17 @@ The 4 files are:
 
 ## Set Up
 
+To add the repository to a folder on your PC, you need to type the
+following in the terminal:
 
-All dependencies are installed in the conda-environment attached in the 
-folder. To use the environment, you need to install Anaconda on your PC:
+	$	git clone https://github.com/lauranolling/project_in_ai.git
+ 
+
+All dependencies are installed in the conda-environment added in the re- 
+pository. To use the environment, you need to install Anaconda on your PC:
 https://docs.anaconda.com/anaconda/install/. 
 
-Then, in the terminal go to the location of the hand-in-folder and type:
+Then, in the terminal go to the location of the source code and type:
 
 	$ 	conda env create -f ai-env.yml 
  
