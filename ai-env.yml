@@ -1,0 +1,20 @@
+name: ai-env
+channels:
+  - huggingface
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - deap
+  - matplotlib
+  - numpy
+  - pip
+  - python=3.8
+  - pytorch
+  - tensorflow
+  - tokenizers
+  - transformers
+  - pip:
+    - syllables
+    - python-datamuse
+    - mido
