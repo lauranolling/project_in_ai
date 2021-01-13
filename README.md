@@ -11,7 +11,7 @@ The hand-in-folder contains 3 folders and 4 files. The 3 folders are:
 	/bertles 		The bertles language model, trained on
 				the dataset beatles.txt.
 				
-	/experiments 	All results from the experiments, 
+	/experiments 		All results from the experiments, 
 				described in the report.
 				
 	/melodies		All the melody fragments generated
@@ -19,19 +19,19 @@ The hand-in-folder contains 3 folders and 4 files. The 3 folders are:
 
 The 4 files are:
     
-    	ai-env.yml		The conda environment containing all
+   	ai-env.yml		The conda environment containing all
     				dependencies necessary to run the
     				source code.
     	
-    	beatles.txt		A dataset containing lyrics from all 
+	beatles.txt		A dataset containing lyrics from all 
     				online available song lyrics by The 
     				Beatles, with removed repititions
     				and non-English words
     	
-    	harmony.py		The source code for harmony 
+	harmony.py		The source code for harmony 
     				generation.
     	
-    	rhyme.py		The source code for song lyric 
+	rhyme.py		The source code for song lyric 
     				generation
     
 
@@ -44,11 +44,11 @@ https://docs.anaconda.com/anaconda/install/.
 
 Then, in the terminal go to the location of the hand-in-folder and type:
 
- | $ 	conda env create -f ai-env.yml 
+	$ 	conda env create -f ai-env.yml 
  
 Then, activate the environment:
 
- | $	conda activate ai-env 
+ 	$	conda activate ai-env 
  
 
 ## RUN THE CODE 
@@ -59,8 +59,7 @@ To run the source code for harmony generation, type:
 
  Likewise, to run the source code for lyric generation, type:
  
- $ 	python3 rhyme.py 
- --------------------------------------------------------------------------
+ 	$ 	python3 rhyme.py 
 
 
 
