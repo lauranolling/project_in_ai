@@ -4,9 +4,7 @@ A repository containing source code for the course "Project in AI", offered on t
 If you want to try out the code, follow the below steps to get started.
 
 
-			     ###########
-			     # CONTENT #
-			     ###########
+# CONTENT
 
 The hand-in-folder contains 3 folders and 4 files. The 3 folders are:
 
